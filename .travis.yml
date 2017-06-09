@@ -1,0 +1,8 @@
+sudo: required
+language: python
+python:
+  - pypy3
+install:
+  - python -c 'from setuptools import setup'
+script:
+  - true
